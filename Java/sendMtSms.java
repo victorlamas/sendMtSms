@@ -15,7 +15,7 @@ public class HttpPostExample {
         // JSON parameters
         Map<String, String> data = new HashMap<>();
         data.put("user", "your_api_user");
-        data.put("apikey", "your_api_key");
+        data.put("apiKey", "your_api_key");
         data.put("to", "recipient");
         data.put("message", "your_message");
 
