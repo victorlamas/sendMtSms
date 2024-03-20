@@ -14,7 +14,7 @@ class Program
         var data = new
         {
             user = "your_api_user",
-            apikey = "your_api_key",
+            apiKey = "your_api_key",
             to = "recipient",
             message = "your_message"
         };
