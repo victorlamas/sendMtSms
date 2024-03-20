@@ -6,7 +6,7 @@ url="https://www.panelsms.com/httpinput/sendMtSms.php"
 # JSON parameters
 data='{
   "user": "your_api_user",
-  "apikey": "your_api_key",
+  "apiKey": "your_api_key",
   "to": "recipient",
   "message": "your_message"
 }'
