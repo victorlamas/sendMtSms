@@ -7,7 +7,7 @@ set "recipient=recipient"
 set "message=your_message"
 
 :: Construct JSON data
-set "jsonData={"user":"%user%","apikey":"%apikey%","to":"%recipient%","message":"%message%"}"
+set "jsonData={"user":"%user%","apiKey":"%apikey%","to":"%recipient%","message":"%message%"}"
 
 :: Save JSON data to a temporary file
 echo %jsonData% > temp.json
